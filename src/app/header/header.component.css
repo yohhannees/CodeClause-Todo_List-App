@@ -1,0 +1,152 @@
+
+/* Navbar */
+.navigation {
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+.navigation .navbar-brand {
+  color: #333;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.navigation .nav-link {
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  padding: 0 10px;
+}
+
+.navigation .nav-link:hover {
+  color: #f00;
+}
+
+.navigation .dropdown-menu {
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 0;
+  padding: 10px;
+  width: 200px;
+}
+
+.navigation .dropdown-menu a {
+  color: #333;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.navigation .dropdown-menu a:hover {
+  color: #f00;
+}
+
+.navigation .cart-dropdown {
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  padding: 10px;
+  width: 300px;
+}
+
+.navigation .cart-dropdown .media {
+  margin-bottom: 10px;
+}
+
+.navigation .cart-dropdown .media-img {
+  width: 60px;
+}
+
+.navigation .cart-dropdown h6 {
+  color: #333;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.navigation .cart-dropdown .cart-price {
+  color: #f00;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.navigation .cart-dropdown .remove {
+  color: #f00;
+  font-size: 14px;
+}
+
+.navigation .top-menu {
+  float: right;
+  margin-top: 10px;
+}
+
+.navigation .top-menu .search_toggle {
+  color: #333;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.navigation .top-menu .cart-icon {
+  color: #333;
+  font-size: 20px;
+  margin-right: 10px;
+  position: relative;
+}
+
+.navigation .top-menu .cart-icon .badge {
+  background-color: #f00;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  height: 20px;
+  line-height: 20px;
+  position: absolute;
+  right: -8px;
+  text-align: center;
+  top: -8px;
+  width: 20px;
+}
+
+.navigation .top-menu .cart-dropdown .total-price {
+  color: #f00;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.navigation .top-menu .cart-dropdown .cart-buttons {
+  margin-top: 20px;
+}
+
+.navigation .top-menu .cart-dropdown .btn-transparent {
+  border: 1px solid #f00;
+  color: #f00;
+}
+
+.navigation .top-menu .cart-dropdown .btn-transparent:hover {
+  background-color: #f00;
+  color: #fff;
+}
+
+.navigation .top-menu .cart-dropdown .btn-main {
+  background-color: #f00;
+  color: #fff;
+}
+
+.navigation .top-menu .cart-dropdown .btn-main:hover {
+  background-color: #333;
+}
+
+.navigation .top-menu .tf-ion-ios-person {
+  color: #333;
+  font-size: 20px;
+  margin-right: 10px;
+}

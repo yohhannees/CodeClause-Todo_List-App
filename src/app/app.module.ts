@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+import * as $ from 'jquery';
 @NgModule({
   declarations: [AppComponent, HeaderComponent, FooterComponent, HomeComponent],
   imports: [BrowserModule, AppRoutingModule, SlickCarouselModule],
