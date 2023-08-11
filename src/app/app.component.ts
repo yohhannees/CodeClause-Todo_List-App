@@ -37,9 +37,7 @@ export class AppComponent {
 
   searchTasks() {
     const searchText = this.searchText.toLowerCase();
-    this.filteredTasks = this.tasks.filter(task =>
-      task.text.toLowerCase().includes(searchText)
-    );
+  
   }
 
   get filteredTasks(): Task[] {
