@@ -64,3 +64,6 @@ li:last-child {
 #searchInput {
   width: 97%;
 }
+.clear{
+    margin-right: 200px;
+}

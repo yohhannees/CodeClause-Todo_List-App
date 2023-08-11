@@ -34,6 +34,12 @@ export class AppComponent {
   clearCompletedTasks() {
     this.tasks = this.tasks.filter(task => !task.completed);
   }
+ 
+clearAllTasks() {
+  this.tasks = [];
+
+}
+
 
   searchTasks() {
     const searchText = this.searchText.toLowerCase();
