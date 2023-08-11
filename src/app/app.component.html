@@ -6,6 +6,20 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>klmlwavnqwl</h1>
+ <div class="container">
+  <input type="text" id="searchInput" placeholder="Search tasks..." [(ngModel)]="searchText" (input)="searchTasks()" />
+  <h1>To-Do List</h1>
+  <input type="text" id="taskInput" placeholder="Add a new task..." [(ngModel)]="newTaskText" />
+  <button (click)="addTask()">Add</button>
+  <ul id="taskList">
+    <li *ngFor="let task of filteredTasks; let i = index" [class.completed]="task.completed">
+      <span>{{ task.text }}</span>
+      <button class="completeButton" (click)="completeTask(i)">Complete</button>
+      <button class="removeButton" (click)="removeTask(i)">Remove</button>
+    </li>
+  </ul>
+  <button (click)="clearCompletedTasks()">Clear Completed</button>
+</div>
+
 </body>
 </html>
